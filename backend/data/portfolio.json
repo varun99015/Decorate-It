@@ -1,0 +1,211 @@
+[
+  {
+    "id": "prj-whispering-palms",
+    "slug": "whispering-palms-royal-mandap",
+    "title": "The Whispering Palms Lotus Mandap",
+    "eventType": "Weddings",
+    "locationDescription": "Palace Grounds, Bengaluru",
+    "summary": "A sacred water-sanctuary mandap featuring 40,000 hand-threaded white rajnigandha strands and floating pink lotus blossoms.",
+    "designConcept": "Drawing inspiration from traditional Dravidian stone temple geometry and pristine Kerala lotus ponds, we erected an open-air stone-textured octagonal pavilion crowned by a cascading floral dome. Natural morning sunlight filtered through the delicate tuberose strings, casting celestial shadows across the sacred agni kund.",
+    "coverImage": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Pearl White", "hex": "#FDFCFA" },
+      { "name": "Sacred Ochre", "hex": "#C98E3D" },
+      { "name": "Petal Blush", "hex": "#E3A89C" },
+      { "name": "Antique Brass", "hex": "#997A44" }
+    ],
+    "featured": true,
+    "demoContent": true,
+    "guestCount": "450 Guests",
+    "season": "Winter Wedding (December)",
+    "highlight": "Bespoke acoustic water-curtain and hand-hammered temple bells"
+  },
+  {
+    "id": "prj-velvet-celestial",
+    "slug": "celestial-velvet-reception",
+    "title": "The Celestial Velvet Gala Reception",
+    "eventType": "Reception stages",
+    "locationDescription": "The Ritz-Carlton Grand Ballroom, Bengaluru",
+    "summary": "An architectural symphony in midnight emerald, fluted champagne arches, and 2,000 hanging crystal prisms.",
+    "designConcept": "For an evening of black-tie sophistication, we transformed a 10,000 sq ft ballroom into an enchanted winter nocturnal garden. Fluted curved stage arches finished in matte oyster-white provided deep optical dimension, flanked by six-foot crystal candelabras and lush arrangements of black baccara roses and white orchids.",
+    "coverImage": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Midnight Forest", "hex": "#1C2E24" },
+      { "name": "Champagne Mist", "hex": "#E6D7BD" },
+      { "name": "Deep Garnet", "hex": "#4D1D28" },
+      { "name": "Gilded Brass", "hex": "#B89B5F" }
+    ],
+    "featured": true,
+    "demoContent": true,
+    "guestCount": "600 Guests",
+    "season": "Autumn Gala (November)",
+    "highlight": "Mirrored walkway with submerged fiber-optic constellation points"
+  },
+  {
+    "id": "prj-saffron-courtyard",
+    "slug": "saffron-courtyard-haldi",
+    "title": "The Saffron Courtyard Mehendi & Haldi",
+    "eventType": "Haldi and mehendi",
+    "locationDescription": "Heritage Bungalow, Sadashivanagar, Bengaluru",
+    "summary": "A sensory celebration bathed in fresh marigold cascades, hand-blocked Jaipur textiles, and artisanal brass urlis.",
+    "designConcept": "Set under century-old rain trees, this Haldi and Mehendi concept fused vintage Karnataka courtyard warmth with joyful Rajasthani vibrancy. We draped five distinct shades of yellow and saffron marigolds into ten-meter suspended water-fountains, creating joyous photo backdrops and a fragrant canopy for the couple's ceremonial ritual.",
+    "coverImage": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Solar Marigold", "hex": "#ECA026" },
+      { "name": "Terracotta Clay", "hex": "#C26241" },
+      { "name": "Lime Moss", "hex": "#899B53" },
+      { "name": "Polished Brass", "hex": "#C29B4A" }
+    ],
+    "featured": true,
+    "demoContent": true,
+    "guestCount": "180 Guests",
+    "season": "Spring Soiree (February)",
+    "highlight": "Custom artisanal brass swing adorned with 10,000 jasmine blossoms"
+  },
+  {
+    "id": "prj-botanical-clouds",
+    "slug": "suspended-botanical-clouds",
+    "title": "Suspended Botanical Cloud Canopy",
+    "eventType": "Floral installations",
+    "locationDescription": "Taj West End Glasshouse, Bengaluru",
+    "summary": "Weightless aerial clouds of gypsophila, Dutch hydrangea, and pale eucalyptus suspended across a glasshouse conservatory.",
+    "designConcept": "Conceived as an ethereal floating dreamscape, our structural rigging team suspended fifteen organic botanical clouds directly beneath the glass ceiling. At dusk, concealed warm micro-beams illuminated each cluster from within, casting a diffused, celestial glow over long candlelit banquet tables.",
+    "coverImage": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Ethereal Mist", "hex": "#F1EEE8" },
+      { "name": "Silver Sage", "hex": "#9DA799" },
+      { "name": "Pale Rosewater", "hex": "#DFC6BE" },
+      { "name": "Olive Bough", "hex": "#53634B" }
+    ],
+    "featured": true,
+    "demoContent": true,
+    "guestCount": "220 Guests",
+    "season": "Monsoon Twilight (August)",
+    "highlight": "Zero-foam bio-sustainable suspension mechanics"
+  },
+  {
+    "id": "prj-olivo-villa",
+    "slug": "olivo-courtyard-intimate-wedding",
+    "title": "The Olive & Amber Courtyard Vows",
+    "eventType": "Intimate celebrations",
+    "locationDescription": "Private Estate Villa, Kanakapura Road",
+    "summary": "An intimate micro-wedding for 75 cherished guests featuring heirloom stoneware, natural linen, and hand-dipped beeswax tapers.",
+    "designConcept": "For this deeply personal ceremony, every tactile surface was treated with artisanal reverence. We erected an asymmetric wild-rose bower framed against an ancient banyan tree. Guests dined at two continuous fifty-foot teak tables adorned with hand-calligraphed linen napkins and individual rosemary bouquets.",
+    "coverImage": "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Warm Sandstone", "hex": "#DFD3C3" },
+      { "name": "Olive Ochre", "hex": "#6C6B4F" },
+      { "name": "Terracotta Ember", "hex": "#9E4733" },
+      { "name": "Antique Gold", "hex": "#B4975A" }
+    ],
+    "featured": false,
+    "demoContent": true,
+    "guestCount": "75 Guests",
+    "season": "Winter Dusk (January)",
+    "highlight": "Hand-dipped 100% natural beeswax tapers with personalized wax seal place cards"
+  },
+  {
+    "id": "prj-luminary-gala",
+    "slug": "luminary-corporate-gala",
+    "title": "The Luminary Leadership Gala",
+    "eventType": "Corporate events",
+    "locationDescription": "Sheraton Grand Convention Center, Whitefield",
+    "summary": "A sculptural, architectural stage and immersive gala environment celebrating corporate excellence.",
+    "designConcept": "Balancing institutional gravitas with contemporary artistic restraint, we engineered a monolithic geometric backdrop featuring matte anthracite panels accented by recessed warm architectural lighting strips and floating brushed bronze award pedestals.",
+    "coverImage": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Anthracite Slate", "hex": "#202224" },
+      { "name": "Brushed Bronze", "hex": "#A27B5C" },
+      { "name": "Crisp Platinum", "hex": "#DCD7C9" },
+      { "name": "Deep Cyan", "hex": "#2C394B" }
+    ],
+    "featured": false,
+    "demoContent": true,
+    "guestCount": "500 Attendees",
+    "season": "Spring Conference (March)",
+    "highlight": "Glare-free matte finish backdrops engineered specifically for broadcast cameras"
+  },
+  {
+    "id": "prj-goa-sunset-vows",
+    "slug": "azure-shore-destination-wedding",
+    "title": "The Azure Shoreline Beach Mandap",
+    "eventType": "Weddings",
+    "locationDescription": "Morjim Beachfront Pavilion, Goa",
+    "summary": "A minimalist bamboo and sheer organza sanctuary framing the Arabian Sea sunset.",
+    "designConcept": "To honor the infinite horizon of the ocean, we designed an ultra-minimalist coastal mandap using sun-bleached driftwood timber, floating oyster-white organza that moved gently with sea breezes, and native pampas grass interwoven with blush proteas and white gardenias.",
+    "coverImage": "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544078751-58fee2d8a03b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Coastal Dune", "hex": "#E7DFD5" },
+      { "name": "Blush Shell", "hex": "#E9CFC5" },
+      { "name": "Aegean Breeze", "hex": "#8EA7A8" },
+      { "name": "Sunset Gold", "hex": "#CFA15A" }
+    ],
+    "featured": false,
+    "demoContent": true,
+    "guestCount": "160 Guests",
+    "season": "Coastal Twilight (November)",
+    "highlight": "Wind-engineered structural anchoring with silent acoustic fabric weighting"
+  },
+  {
+    "id": "prj-mirrored-sangeet",
+    "slug": "mirrored-infinity-sangeet",
+    "title": "The Mirage Mirror Sangeet Stage",
+    "eventType": "Reception stages",
+    "locationDescription": "Conrad Hotel Ballroom, Bengaluru",
+    "summary": "An infinity reflective runway, kinetic gold lighting cages, and cascading black amaranthus.",
+    "designConcept": "Conceived for an unforgettable night of music and choreography, this design featured a 40-foot mirrored black dance floor that reflected thousands of warm overhead tungsten bulbs. The stage featured rotating gilded geometric frames interwoven with dried pampas and preserved dark botanicals.",
+    "coverImage": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "colorPalette": [
+      { "name": "Obsidian Black", "hex": "#121212" },
+      { "name": "Rich Champagne", "hex": "#E5D2B0" },
+      { "name": "Molten Brass", "hex": "#C89E47" },
+      { "name": "Smoked Gray", "hex": "#4A4744" }
+    ],
+    "featured": false,
+    "demoContent": true,
+    "guestCount": "350 Guests",
+    "season": "Winter Gala (December)",
+    "highlight": "Custom high-load tempered mirror dance floor with non-slip treatment"
+  }
+]

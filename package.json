@@ -1,0 +1,19 @@
+{
+  "name": "everafter-wedding-atelier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Luxury Wedding & Event Decorator Website — Full Stack Platform",
+  "scripts": {
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"bgBlue.bold,bgMagenta.bold\" \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "node backend/test/test-api.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "author": "EVERAFTER Atelier",
+  "license": "ISC"
+}

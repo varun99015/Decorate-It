@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  body {
+    background-color: #F8F5F0;
+    color: #242220;
+    overflow-x: hidden;
+  }
+
+  /* Headings typography defaults */
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  .font-display {
+    font-family: 'Cinzel', 'Cormorant Garamond', serif;
+    letter-spacing: 0.08em;
+  }
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F2EDE4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #B69A65;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #937947;
+}
+
+/* Subtle gold foil gradient text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #B69A65 0%, #E8D8BE 50%, #937947 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #B69A65 0%, #D1BB88 50%, #937947 100%);
+}
+
+.border-gold-subtle {
+  border-color: rgba(182, 154, 101, 0.3);
+}
+
+/* Subtle luxury grain/texture overlay for hero or dark sections */
+.grain-overlay {
+  background-image: radial-gradient(rgba(182, 154, 101, 0.08) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Image reveal transitions */
+.image-zoom-container {
+  overflow: hidden;
+}
+
+.image-zoom-container img {
+  transition: transform 0.85s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.image-zoom-container:hover img {
+  transform: scale(1.06);
+}
+
+/* Accessible outline */
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid #B69A65;
+  outline-offset: 2px;
+}

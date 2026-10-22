@@ -1,0 +1,48 @@
+{
+  "businessName": "EVERAFTER — Wedding & Event Atelier",
+  "shortName": "EVERAFTER",
+  "tagline": "Where Every Celebration Becomes a Story.",
+  "subTagline": "Bespoke Wedding & Event Design Studio in Bengaluru",
+  "foundedYear": 2018,
+  "experienceYears": "8+",
+  "logoPath": "/images/logo.svg",
+  "phone": "+91 63634 272785",
+  "displayPhone": "+91 (080) 4920-3344 / +91 63634 272785",
+  "email": "concierge@everafteratelier.in",
+  "pressEmail": "press@everafteratelier.in",
+  "whatsAppNumber": "+916363427278",
+  "whatsAppMessage": "Hello EVERAFTER Atelier, I would like to schedule an event design consultation.",
+  "address": "Villa 14, The Boulevard, Lavelle Road",
+  "locality": "Shanthala Nagar, Ashok Nagar",
+  "city": "Bengaluru",
+  "state": "Karnataka",
+  "postalCode": "560001",
+  "country": "India",
+  "about": "EVERAFTER is an award-calibre wedding and luxury event atelier headquartered in Bengaluru. We curate immersive visual atmospheres where architectural mandaps, rare seasonal botanicals, artisanal drapery, and theatrical illumination converge to turn personal love stories into timeless aesthetic poetry.",
+  "philosophy": "We believe that exceptional event decor is never mere ornamentation—it is spatial choreography. Every arch, candle, petal, and fabric fold is intentionally selected to evoke warmth, reverence, and transcendent joy.",
+  "openingHours": "Monday – Saturday: 10:00 AM – 7:30 PM (Private Consultations by Appointment)",
+  "consultationNote": "We limit our commitments to three bespoke celebrations per calendar month to guarantee absolute perfection and unhurried creative devotion.",
+  "socialLinks": {
+    "instagram": "https://instagram.com/everafter.atelier",
+    "pinterest": "https://pinterest.com/everafteratelier",
+    "facebook": "https://facebook.com/everafteratelier",
+    "youtube": "https://youtube.com/@everafteratelier"
+  },
+  "brandColours": {
+    "ivory": "#F8F5F0",
+    "champagne": "#E8D8BE",
+    "burgundy": "#542D3A",
+    "forestGreen": "#263B32",
+    "mutedGold": "#B69A65",
+    "charcoal": "#242220"
+  },
+  "mapUrl": "https://maps.google.com/?q=Lavelle+Road+Bengaluru",
+  "serviceAreas": [
+    "Bengaluru (Central, Palace Grounds, Whitefield, Hebbal, Kanakapura Road)",
+    "Mysuru & Coorg Heritage Estates",
+    "Goa Beach & Portuguese Villa Celebrations",
+    "Udaipur & Jaipur Palace Venues",
+    "International Destination Celebrations"
+  ],
+  "disclaimer": "This is an artistic demonstration portfolio presented by EVERAFTER Atelier for event planning showcases."
+}

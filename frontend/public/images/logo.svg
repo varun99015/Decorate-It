@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60" fill="none">
+  <!-- Botanical crest monogram -->
+  <g transform="translate(10, 5)">
+    <circle cx="25" cy="25" r="22" stroke="#B69A65" stroke-width="1.2" stroke-dasharray="1 2"/>
+    <circle cx="25" cy="25" r="18" stroke="#542D3A" stroke-width="0.8"/>
+    <!-- Laurel leaf accents -->
+    <path d="M 25 10 C 22 15 22 20 25 24 C 28 20 28 15 25 10 Z" fill="#B69A65" opacity="0.8"/>
+    <text x="25" y="31" font-family="'Cinzel', serif" font-size="14" font-weight="600" fill="#242220" text-anchor="middle">EA</text>
+  </g>
+  <!-- Brand text -->
+  <text x="75" y="32" font-family="'Cinzel', 'Cormorant Garamond', serif" font-size="22" font-weight="600" fill="#242220" letter-spacing="4">EVERAFTER</text>
+  <text x="76" y="46" font-family="'Plus Jakarta Sans', sans-serif" font-size="7.5" font-weight="500" fill="#B69A65" letter-spacing="3.5">WEDDING &amp; EVENT ATELIER</text>
+</svg>

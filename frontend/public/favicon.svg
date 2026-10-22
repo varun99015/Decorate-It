@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="16" fill="#263B32"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#B69A65" stroke-width="1.5" stroke-dasharray="2 3"/>
+  <circle cx="32" cy="32" r="22" fill="none" stroke="#E8D8BE" stroke-width="1"/>
+  <text x="32" y="38" font-family="'Cinzel', 'Playfair Display', serif" font-size="20" font-weight="600" fill="#E8D8BE" text-anchor="middle" letter-spacing="1">EA</text>
+</svg>

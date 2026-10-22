@@ -10,6 +10,9 @@ dotenv.config();
 
 const app = express();
 
+// Trust proxy for proper IP resolution and rate-limiting behind Vercel, Nginx, or Cloudflare
+app.set('trust proxy', 1);
+
 // Security headers with Helmet
 app.use(
   helmet({

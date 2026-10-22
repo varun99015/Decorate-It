@@ -99,9 +99,25 @@ export const DataService = {
   },
 
   async saveEnquiry(enquiryRecord) {
-    const enquiries = await readJsonFile('enquiries.json', []);
-    enquiries.unshift(enquiryRecord); // Newest first
-    await writeJsonFileAtomic('enquiries.json', enquiries);
+    try {
+      const enquiries = await readJsonFile('enquiries.json', []);
+      enquiries.unshift(enquiryRecord); // Newest first
+      await writeJsonFileAtomic('enquiries.json', enquiries);
+    } catch (err) {
+      console.warn('[DataService] Local persistence unavailable (Serverless / Read-Only). Writing to /tmp fallback:', err.message);
+      try {
+        const tmpPath = path.join('/tmp', 'enquiries.json');
+        let tmpEnquiries = [];
+        try {
+          const content = await fs.readFile(tmpPath, 'utf-8');
+          tmpEnquiries = JSON.parse(content);
+        } catch {}
+        tmpEnquiries.unshift(enquiryRecord);
+        await fs.writeFile(tmpPath, JSON.stringify(tmpEnquiries, null, 2), 'utf-8');
+      } catch (tmpErr) {
+        console.warn('[DataService] /tmp write failed. Holding enquiry in memory.');
+      }
+    }
     return enquiryRecord;
   }
 };

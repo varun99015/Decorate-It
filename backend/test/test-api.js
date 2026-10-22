@@ -133,7 +133,7 @@ async function runTests() {
     const testPayload = {
       name: 'Rohan & Ananya Test',
       phone: '+91 98450 99887',
-      email: 'v',
+      email: 'rohan.test@example.com',
       eventType: 'Weddings',
       eventDate: '2026-12-15',
       venue: 'The Leela Palace Bengaluru',

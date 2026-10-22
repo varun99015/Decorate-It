@@ -213,12 +213,39 @@ Edit `backend/data/packages.json`:
 
 ---
 
-## 10. Data Persistence & Production Deployment
+## 10. Vercel Deployment & Single-Project Architecture
 
-### Persistence Architecture
-- Enquiries are persisted in `backend/data/enquiries.json`.
-- Uses atomic writes (`fs.writeFile` to a `.tmp` file, then `fs.rename`) with an asynchronous write-lock queue to prevent concurrent write corruption.
-- **Important Note:** Local JSON file persistence requires a persistent server or container (e.g. VPS, Render, Railway, DigitalOcean App Platform, AWS EC2). Serverless environments (like AWS Lambda or Vercel Serverless Functions) possess ephemeral filesystems where file edits do not persist across invocations. For serverless production setups, swap `DataService.js` to an external database (e.g. PostgreSQL, Supabase, or MongoDB).
+The repository is fully configured for zero-configuration, single-project deployment on [Vercel](https://vercel.com) containing both the React frontend and the Express backend API.
+
+### How It Works:
+1. **Frontend Build & Output:** Configured via `vercel.json`:
+   - Build Command: `npm --prefix frontend install && npm --prefix frontend run build`
+   - Output Directory: `frontend/dist`
+2. **Serverless Backend API:**
+   - Root `api/index.js` exports the Express app instance (`backend/src/app.js`).
+   - Any request matching `/api/(.*)` is automatically routed to this serverless function.
+3. **Preventing 404 Errors on Page Refresh (SPA Rewrites):**
+   - In single-page React Router applications, refreshing deep URLs (e.g. `/portfolio`, `/services`, `/contact`, `/portfolio/whispering-palms-royal-mandap`) can return a 404 error if the web server looks for static files.
+   - `vercel.json` includes the rewrite rule:
+     ```json
+     {
+       "source": "/((?!api/).*)",
+       "destination": "/index.html"
+     }
+     ```
+   - This ensures all client-side routes fallback to `/index.html` on refresh, allowing React Router to seamlessly handle the route.
+4. **Rate Limiting Behind Vercel Edge:**
+   - Express is configured with `app.set('trust proxy', 1);`, ensuring `express-rate-limit` accurately tracks client IPs through Vercel's proxy headers (`X-Forwarded-For`).
+5. **Serverless Data Handling:**
+   - Public JSON files (`business.json`, `services.json`, `packages.json`, `portfolio.json`, `faqs.json`) are bundled and readable directly.
+   - For client enquiries on serverless hosting, `DataService` includes an automatic fallback to `/tmp/enquiries.json` (writable on Vercel) so form submissions never fail due to read-only filesystem restrictions. For high-volume multi-instance production, connect a persistent database.
+
+### Deploying to Vercel (1-Click or CLI):
+```bash
+# Using Vercel CLI from project root:
+vercel
+```
+Or import the GitHub repository in the Vercel Dashboard with root directory set to `./`. Vercel will automatically detect `vercel.json` and configure both the frontend SPA and the serverless API.
 
 ---
 
